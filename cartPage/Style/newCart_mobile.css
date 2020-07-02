@@ -1,0 +1,375 @@
+/* 모바일 */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+   .mainTable,
+   .ItemHeader,
+   .GreenCheckBox,
+   .unOption,
+   .nonGoodsImg {
+      margin-top: 0px;
+   }
+
+   .nameBar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--color-gray-1);
+      height: 19px;
+      /* width: 437px; */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+   .xBox {
+      position: absolute;
+      right: 6.4%;
+   }
+
+   .trashBox {
+      position: absolute;
+      right: 3%;
+   }
+
+   .nonMobileExistGoods {
+      width: 64px;
+      height: 64px;
+      border-radius: 4px;
+      border: solid 1px #f2f2f2;
+      background-color: var(--color-black-3);
+      opacity: 0.5;
+      float: left;
+      margin-left: 0;
+      margin-right: 5px;
+      object-fit: contain;
+   }
+
+   .NoCart {
+      color: var(--color-gray-1);
+   }
+
+   .goodsImg {
+      width: 64px;
+      height: 64px;
+      float: left;
+      margin: 0px;
+      margin-right: 5px;
+      border-radius: 4px;
+      object-fit: contain;
+      border: solid 1px #f2f2f2;
+   }
+
+   .nonGoodsImg {
+      width: 64px;
+      height: 64px;
+      float: left;
+      margin: 0px;
+      margin-right: 5px;
+      border-radius: 4px;
+      object-fit: contain;
+      border: solid 1px #f2f2f2;
+   }
+
+   #HrTag {
+      display: none;
+   }
+
+   #goodsLine {
+      border: 0;
+      height: 8px;
+      background-color: var(--color-gray-4);
+   }
+
+   .cartName {
+      width: 89px;
+      font-family: NotoSansCJKkr;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-1);
+   }
+
+   .goodsNm {
+      height: 19px;
+      /* width: 437px; */
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      margin-left: 17px;
+      margin-bottom: 15px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+   .Text {
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      text-align: left;
+   }
+
+   .GreenCheckBox {
+      height: 18px;
+      width: 18px;
+      margin-right: 4px;
+      align-items: flex-start;
+   }
+
+   .Option {
+      width: 48px;
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .Cost {
+      width: 59px;
+      height: 22px;
+      font-family: NotoSansCJKkr;
+      font-size: 22px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.22;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--color-black-1);
+   }
+
+   .mainLine {
+      width: 1px;
+      height: 48px;
+      fill: var(--color-gray-4);
+   }
+
+   .optionBar {
+      width: 30%;
+      height: 48px;
+      border-radius: 8px;
+      background-color: var(--color-gray-5);
+      justify-content: space-between;
+      display: flex;
+      margin: 0;
+      margin-top: 11px;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 11px;
+   }
+
+   .optionNm {
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      padding-top: 11px;
+      padding-left: 10px;
+   }
+
+   .countSelect {
+      text-align: left;
+      width: 80px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: var(--color-white);
+      margin-left: 313px;
+   }
+
+   .frontBox {
+      width: 49px;
+      height: 32px;
+      border-right: 8px;
+      border-radius: 8px;
+      border: solid 1px var(--color-gray-4);
+      padding-left: 14px;
+   }
+
+   .endBox {
+      width: 32px;
+      height: 32px;
+      border-left: 8px;
+      border: solid 1px var(--color-gray-4);
+      padding-left: 8px;
+   }
+
+   .delNm {
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .Option {
+      width: 48px;
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .price {
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .itemPrice {
+      margin: auto;
+   }
+
+   .extra {
+      /* width: 42px;
+  height: 20px; */
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      margin-bottom: 10px;
+   }
+
+   .selectBox {
+      width: 80px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: var(--color-white);
+   }
+
+   select {
+      width: 56px;
+      height: 32px;
+      appearance: none;
+      background-image: url(../img/arrow-down.svg);
+      /* background-size: 15px 10px; */
+      background-position: right 7px center;
+      background-repeat: no-repeat;
+      padding-right: 10px;
+   }
+
+   .nonExistGoods {
+      width: 64px;
+      height: 64px;
+      border-radius: 4px;
+      border: solid 1px #f2f2f2;
+      background-color: rgba(51, 51, 51, 0.5);
+      align-items: center;
+   }
+
+   .soldOut {
+      position: static;
+      width: 43px;
+      height: 36px;
+      font-family: NotoSansCJKkr;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.13;
+      letter-spacing: normal;
+      margin: auto;
+      margin-top: 30px;
+      background-color: transparent;
+   }
+
+   select::-ms-expand {
+      display: none;
+   }
+
+   .unOption {
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.21;
+      letter-spacing: normal;
+      color: var(--color-gray-1);
+      margin-left: 17px;
+      margin-bottom: 15px;
+      height: 19px;
+      /* width: 437px; */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+   .selectCnt {
+      margin-top: 4px;
+      width: 81px;
+      height: 32px;
+      border-radius: 8px;
+      border: solid 1px var(--color-gray-4);
+      margin-right: 10px;
+   }
+   .nameBar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .nonItemMobileList {
+      width: 180px;
+      height: 38px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--color-gray-1);
+      margin-top: 120px;
+      margin-bottom: 120px;
+      margin-left: 30%;
+   }
+
+   .itemText {
+      color: var(--color-white);
+      width: 43px;
+      height: 36px;
+      margin-left: 0;
+      margin-top: 0;
+   }
+}

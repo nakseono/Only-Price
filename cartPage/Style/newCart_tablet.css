@@ -1,0 +1,417 @@
+/* 태블릿 화면 */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+   .ItemListPC{
+      margin: 0px 20px 0px 20px;
+   }
+
+   .allCart {
+      margin-top: 6px;
+   }
+
+   .NoCart {
+      color: var(--color-gray-1);
+   }
+
+   .totalContainer {
+      padding-right: 40px;
+   }
+
+   .Contain {
+      height: 125px;
+   }
+
+   #HrTag {
+      /* width: 94.7%;
+      margin-left: 20px; */
+      border: 0;
+      height: 2px;
+      background-color: var(--color-black-2);
+   }
+
+   #goodsLine {
+      border: 0;
+      height: 8px;
+      background-color: var(--color-gray-4);
+   }
+
+   .goodsImg {
+      width: 76px;
+      height: 76px;
+      object-fit: contain;
+      border-radius: 4px;
+      margin-top: 24px;
+      margin-left: 32px;
+      border: solid 1px #f2f2f2;
+   }
+
+   .nonGoodsImg {
+      width: 76px;
+      height: 76px;
+      object-fit: contain;
+      border-radius: 5px;
+      margin-top: 24px;
+      margin-left: 32px;
+      border-radius: 4px;
+   }
+
+   .soldOut {
+      width: 76px;
+      height: 76px;
+      position: absolute;
+      background-color: rgba(51, 51, 51, 0.5);
+      bottom: 6px;
+      text-align: center;
+      font-family: NotoSansCJKkr;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.13;
+      letter-spacing: normal;
+      text-align: center;
+      border-radius: 4px;
+      margin-left: 32px;
+   }
+
+   .ItemHeader {
+      margin-top: 10px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+   }
+
+   .itemText {
+      width: 43px;
+      height: 36px;
+      font-family: NotoSansCJKkr;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.13;
+      letter-spacing: normal;
+      text-align: center;
+      margin-left: 17px;
+      margin-top: 20px;
+      color: var(--color-white);
+   }
+
+   .mainTable {
+      margin-top: 56px;
+   }
+
+   .cartLine {
+      width: 894px;
+      height: 2px;
+      fill: var(--color-black-2);
+   }
+
+   .entryLine {
+      width: 894px;
+      height: 8px;
+      fill: var(--color-gray-4);
+   }
+
+   .Contain {
+      margin-right: 360px;
+      margin-top: 300px;
+   }
+
+   .cartName {
+      width: 89px;
+      font-family: NotoSansCJKkr;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-1);
+   }
+
+   .goodsNm {
+      height: 19px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      margin-top: 27px;
+      margin-bottom: 14px;
+      text-align: left;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 232px;
+   }
+
+   .Text {
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .GreenCheckBox {
+      margin-top: 6px;
+   }
+
+   .middle {
+      width: 42px;
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .TrashBtn {
+      margin-bottom: 8px;
+      margin-top: 7px;
+   }
+
+   .Option {
+      width: 48px;
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .Cost {
+      width: 59px;
+      height: 22px;
+      font-family: NotoSansCJKkr;
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.22;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--color-black-1);
+   }
+
+   .mainLine {
+      width: 1px;
+      height: 48px;
+      fill: var(--color-gray-4);
+   }
+
+   .optionBar {
+      height: 48px;
+      border-radius: 8px;
+      background-color: var(--color-gray-5);
+      margin-top: 23px;
+      margin-left: 15px;
+   }
+
+   .optionNm {
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      padding-top: 14px;
+      padding-left: 10px;
+   }
+
+   .countSelect {
+      text-align: left;
+      width: 80px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: var(--color-white);
+      margin-top: 8px;
+      margin-left: 313px;
+   }
+
+   .frontBox {
+      width: 49px;
+      height: 32px;
+      border-right: 8px;
+      border-radius: 8px;
+      border: solid 1px var(--color-gray-4);
+      padding-left: 14px;
+   }
+
+   .endBox {
+      width: 32px;
+      height: 32px;
+      border-left: 8px;
+      border: solid 1px var(--color-gray-4);
+      padding-left: 8px;
+   }
+
+   .deliveryPrice {
+      margin-top: 51px;
+      margin-left: 6px;
+   }
+
+   .goodsPrice {
+      margin-top: 51px;
+   }
+
+   .delNm {
+      margin-top: 6px;
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .last {
+      margin-top: 3px;
+      height: 20px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+   }
+
+   .selectBox {
+      width: 80px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: var(--color-white);
+   }
+
+   select {
+      width: 56px;
+      height: 32px;
+      appearance: none;
+      background-image: url(../img/arrow-down.svg);
+      /* background-size: 15px 10px; */
+      background-position: right 7px center;
+      background-repeat: no-repeat;
+      margin-right: 9px;
+      margin-right: 10px;
+   }
+
+   select::-ms-expand {
+      display: none;
+   }
+
+   .unGoodsNm {
+   }
+
+   .optionNm {
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--color-black-3);
+      padding-top: 14px;
+      padding-left: 10px;
+   }
+
+   .nonItemListHeader {
+      width: 67px;
+      height: 22px;
+      font-family: NotoSansCJKkr;
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.22;
+      letter-spacing: normal;
+      color: var(--color-black-1);
+      margin-top: 24px;
+      margin-left: 2.8%;
+      margin-bottom: 2.1%;
+   }
+
+   .nonItemListCenter {
+      width: 145px;
+      height: 38px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      text-align: center;
+      margin-left: 40%;
+      color: var(--color-gray-1);
+      margin-top: 64px;
+   }
+
+   .nonContainer {
+      margin-bottom: 64px;
+   }
+
+   .nonItemMobileList {
+      width: 180px;
+      height: 38px;
+      font-family: NotoSansCJKkr;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--color-gray-1);
+      margin-top: 120px;
+      margin-bottom: 120px;
+      margin-left: 30%;
+   }
+   .selectCnt {
+      margin-top: 8px;
+      width: 81px;
+      height: 32px;
+      border-radius: 8px;
+      border: solid 1px var(--color-gray-4);
+      margin-right: 10px;
+   }
+
+   .unOption {
+      margin-top: 27px;
+      margin-bottom: 14px;
+      width: 232px;
+      height: 17px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.21;
+      letter-spacing: normal;
+      color: var(--color-gray-1);
+   }
+}

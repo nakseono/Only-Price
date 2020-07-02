@@ -1,0 +1,48 @@
+.recommend_Title {
+  font-weight: bold;
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 2%;
+  margin-left: 2.75%;
+  font-family: NotoSansCJKkr;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-black-1);
+}
+.border_Line {
+  width: 100%;
+  border: 0;
+  height: 2px;
+}
+.recommend_Title_M {
+  width: 80px;
+  height: 24px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 31.3%;
+  line-height: 1.2;
+  font-family: NotoSansCJKkr;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-black-1);
+}
+.recommend_Title_T {
+  width: 80px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 2.8%;
+  margin-bottom: 2.1%;
+  line-height: 1.2;
+  font-family: NotoSansCJKkr;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-black-1);
+}

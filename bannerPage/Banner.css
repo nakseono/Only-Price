@@ -1,0 +1,227 @@
+/* 웹 */
+
+@media only screen and (min-width: 1200px) {
+   /* .BimgBox{
+      width: 100%;
+      height: 100%;
+   }
+    */
+
+   .contentContainer {
+      object-fit: contain;
+   }
+
+   .image {
+      width: 80.4%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: auto;
+      object-fit: contain;
+   }
+
+   .itemContainer {
+      padding: 0;
+   }
+
+   .bannerRec {
+      padding: 0;
+      margin-top: 80px;
+   }
+
+   .recBox {
+      justify-content: flex-start;
+   }
+
+   .recommend_Title {
+      font-weight: bold;
+      text-align: left;
+      font-size: 24px;
+      margin-bottom: 2%;
+      margin-left: 2.75%;
+      font-family: NotoSansCJKkr;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-1);
+   }
+
+   .border_Line {
+      width: 100%;
+      border: 0;
+      height: 2px;
+   }
+
+   .movie {
+      display: flex;
+   }
+
+   .movieContainer {
+      height: 560px;
+   }
+
+   .player-wrapper {
+      width: 100%;
+      position: relative;
+      height: 560px;
+   }
+
+   .react-player {
+      object-fit: contain;
+      margin: auto;
+   }
+
+   .items {
+      padding: 0;
+      justify-content: space-evenly;
+      margin-top: 6.9%;
+   }
+}
+
+/* 태블릿 */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+   .contentContainer {
+      object-fit: contain;
+   }
+
+   .image {
+      width: 80.4%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: auto;
+      /* background-size: contain; */
+      object-fit: contain;
+   }
+
+   .itemContainer {
+      padding: 0;
+   }
+
+   .bannerRec {
+      padding: 0;
+      margin-top: 40px;
+   }
+
+   .recBox {
+      justify-content: flex-start;
+   }
+
+   .recommend_Title {
+      width: 80px;
+      font-weight: bold;
+      text-align: left;
+      font-size: 18px;
+      margin-left: 2.8%;
+      margin-bottom: 2.1%;
+      line-height: 1.2;
+      font-family: NotoSansCJKkr;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-1);
+   }
+
+   .border_Line {
+      width: 100%;
+      border: 0;
+      height: 2px;
+   }
+
+   .movie {
+      display: flex;
+   }
+
+   .movieContainer {
+      background-color: f9e598;
+      height: 337px;
+   }
+
+   .player-wrapper {
+      width: 100%;
+      position: relative;
+      height: 337px;
+   }
+
+   .react-player {
+      margin: auto;
+   }
+
+   .items {
+      padding: 0;
+      justify-content: space-evenly;
+      margin-top: 5.5%;
+   }
+}
+
+/* 모바일  */
+@media only screen and (max-width: 767px) {
+   .contentContainer {
+      height: 336px;
+      object-fit: contain;
+   }
+
+   .image {
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: auto;
+      /* background-size: contain; */
+      object-fit: contain;
+   }
+
+   .itemContainer {
+      padding: 0;
+   }
+
+   .bannerRec {
+      padding: 0;
+      margin-top: 24px;
+   }
+
+   .recBox {
+      justify-content: flex-start;
+   }
+
+   .recommend_Title {
+      width: 80px;
+      height: 24px;
+      font-weight: bold;
+      text-align: left;
+      font-size: 20px;
+      margin-left: 31.3%;
+      line-height: 1.2;
+      font-family: NotoSansCJKkr;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-1);
+   }
+   .border_Line {
+      width: 100%;
+      border: 0;
+      height: 2px;
+   }
+   .movieContainer {
+      height: 203px;
+   }
+
+   .player-wrapper {
+      position: relative;
+      width: 100%;
+      height: 203px;
+   }
+
+   .items {
+      padding: 0;
+      justify-content: space-evenly;
+      margin-top: 7.4%;
+   }
+}

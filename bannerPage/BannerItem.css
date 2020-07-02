@@ -1,0 +1,229 @@
+@media only screen and (min-width: 1200px) {
+   .BrecBox {
+      /* height: 100%; */
+      margin-bottom: 24px;
+   }
+
+   .BgoodsImg {
+      position: relative;
+      width: 97%;
+      height: 97%;
+      border-radius: 8px;
+      border: solid 1px #f2f2f2;
+   }
+
+   .BimgBox {
+      background-size: contain;
+      max-height: 283px;
+      object-fit: contain;
+      position: relative;
+   }
+
+   .BpriceBox {
+      margin-bottom: 71px;
+   }
+
+   .Bgoods_Price {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-2);
+      margin-right: 2.8%;
+      margin-left: 4.6%;
+      margin-top: 4.5%;
+      text-align: left;
+   }
+
+   .Bgoods_Price_only {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-2);
+      margin-right: 2.8%;
+      margin-left: 4.6%;
+      margin-top: 21.1%;
+      text-align: left;
+   }
+
+   .Boriginal_Price {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-gray-1);
+      margin-top: 7.8%;
+      text-align: left;
+   }
+   .Bsales_Percentage {
+      width: 51px;
+      height: 28px;
+      bottom: 90.2%;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      background-color: var(--color-black-6);
+      border-top-left-radius: 6.5px;
+      border-bottom-right-radius: 8px;
+      top: 0;
+      left: 0;
+      margin-left: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+   .BrecBox {
+      margin-bottom: 16px;
+   }
+
+   .BgoodsImg {
+      width: 94.6%;
+      height: 94.6%;
+      border-radius: 8px;
+      border: solid 1px #f2f2f2;
+   }
+
+   .BimgBox {
+      position: relative;
+   }
+
+   .BpriceBox {
+      margin-bottom: 59px;
+   }
+
+   .Bgoods_Price {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-2);
+      margin-left: 3.4%;
+      margin-top: 4.3%;
+      margin-right: 1.7%;
+      text-align: left;
+   }
+   .Boriginal_Price {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-gray-1);
+      margin-left: 3.5%;
+      margin-top: 8.2%;
+      text-align: left;
+   }
+   .Bsales_Percentage {
+      width: 42px;
+      height: 24px;
+      bottom: 86%;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      background-color: var(--color-black-6);
+      border-top-left-radius: 6.5px;
+      border-bottom-right-radius: 8px;
+      top: 0;
+      left: 0;
+      margin-left: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   .BrecBox {
+      margin-bottom: 8px;
+   }
+
+   .BgoodsImg {
+      width: 87.8%;
+      height: 87.8%;
+      border-radius: 8px;
+      border: solid 1px #f2f2f2;
+   }
+
+   .BimgBox {
+      position: relative;
+   }
+
+   .Bgoods_Price {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-black-2);
+      margin-left: 5.2%;
+      text-align: left;
+   }
+   .Boriginal_Price {
+      float: left;
+      font-family: "NotoSansCJKkr";
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--color-gray-1);
+      margin-top: 5.6%;
+      margin-left: 5.2%;
+      text-align: left;
+   }
+   .Bsales_Percentage {
+      width: 38px;
+      height: 22px;
+      bottom: 86%;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      background-color: var(--color-black-6);
+      border-top-left-radius: 6.5px;
+      border-bottom-right-radius: 8px;
+      top: 0;
+      left: 0;
+      margin-left: 6%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .only {
+      margin-top: 5.6%;
+   }
+
+   .mobileLine {
+      width: 100%;
+   }
+}
