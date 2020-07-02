@@ -1,4 +1,4 @@
-# Price_Only
+# Only-Price
 
 ## CodeStates Immersive 19th 플라잉캣 기업협업 프로젝트
 
