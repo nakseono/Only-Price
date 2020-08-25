@@ -9,9 +9,9 @@
 ## ScreenShots
 
 ![banner](/README_IMG/banner.png)
-![cartItemOn](README_IMG/cartItemOn.png)
-![cartItemOff](README_IMG/cartItemOff.png)
-![zeplin](README_IMG/zeplin.png)
+![cartItemOn](/README_IMG/cartItemOn.png)
+![cartItemOff](/README_IMG/cartItemOff.png)
+![zeplin](/README_IMG/zeplin.png)
 
 ## Using Stack
 
@@ -29,7 +29,9 @@
 - 추천상품 API 호출 : Axios를 이용해 특정 배너 ID에 따른 정보(추천상품) 호출 후 정렬
 - 반응형 웹 구현 : **협업한 디자이너가 제시한 UI/UX를 구현**
 - 코드 리팩토링 : **Agile 개발 방법론**을 채택하여 각 Sprint 분기별로 코드 리팩토링 진행
+- Git Work Flow
+  ![gitWorkFlow](/README_IMG/gitWorkFlow.png)
 
 ## Project Document
 
-notion.so/nakseono/Only-Price-5966eb53bf5141c4839cb548b8991fc8
+https://www.notion.so/nakseono/Only-Price-5966eb53bf5141c4839cb548b8991fc8
