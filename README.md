@@ -38,4 +38,4 @@ https://www.notion.so/nakseono/Only-Price-5966eb53bf5141c4839cb548b8991fc8
 
 ### 2020.09 기준 refactoring 진행중
 
-기존 협업에서 룰을 정하지 않고 진행했기 때문에 functional component와 class component가 섞여있는 것 위주로 리팩토링 진행 예정.
+기존 협업에서 룰을 정하지 않고 진행했기 때문에 functional component와 class component가 섞여있는 것 위주로 리팩토링 진행 예정..
